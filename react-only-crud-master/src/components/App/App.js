@@ -100,7 +100,7 @@ class App extends Component {
             cancelEdit={this.cancelEdit}
             // data follows
             cancelEdit={this.updateGame}
-            id={this.state.editGame.id}
+            id={this.state.editGame._id}
             title={this.state.editGame.title}
             playTime={this.state.editGame.playTime}
             numPlayers={this.state.editGame.numPlayers} />
